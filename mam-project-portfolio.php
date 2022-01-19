@@ -49,7 +49,7 @@ function mam_project_portfolio()
         'description' => __('Project Portfolio', 'mam-project-portfolio'),
         'labels' => $labels,
         'supports' => array('title', 'editor', 'thumbnail'),
-        'taxonomies' => array(''),
+        'taxonomies' => array('post_tag'),
         'hierarchical' => true,
         'public' => true,
         'show_ui' => true,
@@ -69,3 +69,4 @@ function mam_project_portfolio()
 }
 
 add_action('init', 'mam_project_portfolio', 0);
+
