@@ -48,7 +48,7 @@ function mam_project_portfolio()
         'label' => __('Project Portfolio', 'mam-project-portfolio'),
         'description' => __('Project Portfolio', 'mam-project-portfolio'),
         'labels' => $labels,
-        'supports' => array('title', 'editor', 'thumbnail'),
+        'supports' => array('title', 'editor', 'thumbnail', 'page-attributes'),
         'taxonomies' => array('post_tag'),
         'hierarchical' => true,
         'public' => true,
